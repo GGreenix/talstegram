@@ -6,6 +6,8 @@ buildscript {
     }
 
     dependencies {
+        
+        implementation 'com.android.support:multidex:1.0.3'
         classpath 'com.android.tools.build:gradle:4.1.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
